@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pytubefix
+pydantic
+python-multipart
