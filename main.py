@@ -51,6 +51,7 @@ def read_root():
 async def search(query: SearchQuery):
     try:
         results = search_videos(query.query)
+        print(results)
         return results
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
